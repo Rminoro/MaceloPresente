@@ -11,3 +11,4 @@ img {
     object-fit: contain;  /* Mantém a proporção e ajusta a imagem para não cortar */
     object-position: center;  /* Centraliza a imagem caso ela não ocupe toda a tela */
 }
+ 
