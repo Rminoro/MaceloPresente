@@ -1,0 +1,13 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  /* Mantém a proporção e ajusta a imagem para não cortar */
+    object-position: center;  /* Centraliza a imagem caso ela não ocupe toda a tela */
+}

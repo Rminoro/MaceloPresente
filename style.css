@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(./assets/fundo.jpg);
+}
+
+.background-img {
+    position: absolute; /* Posiciona a imagem de fundo */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./assets/fundo.jpg'); /* Caminho da imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir a tela */
+    background-position: center; /* Centraliza a imagem */
+    opacity: 0.1; /* Aplica a transparência somente na imagem de fundo */
+    z-index: -1; /* Coloca a camada de fundo abaixo do conteúdo */
+}
+header .titulo {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    background-color: #d00000;
+    color: beige;
+    padding: 10px;
+}
+
+main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.texto {
+    background-color: #d00000;
+    color: white;
+    width: 100%; /* Garante que ocupe toda a largura */
+    display: block; /* Faz o span se comportar como um bloco */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Adiciona espaço interno */
+    box-sizing: border-box; /* Inclui o padding na largura */
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+.botao {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
